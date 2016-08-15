@@ -1,6 +1,14 @@
-// https://github.com/sheredom/utf8.h
-#include "utf8.h"
+#include <stdio.h>
+#include "utf8.h" // https://github.com/sheredom/utf8.h
 #include "longest_prefix_match.h"
+
+
+int main()
+{
+  char *arr[] = {"Erlang/Elixir: 外部通信之-C节点","Erlang/Elixir: 外部通信之-端口驱动","Erlang/Elixir: 外部通信之-NIF"};
+  printf("%s",xtqz(arr,4));
+  return 0;
+}
 
 //求最长的公共前缀。
 char *xtqz(char **arr,unsigned int length)
@@ -35,9 +43,3 @@ char *xtqz(char **arr,unsigned int length)
   return result;
 }
 
-int main()
-{
-  char *arr[] = {"Erlang/Elixir: 外部通信之-C节点","Erlang/Elixir: 外部通信之-端口驱动","Erlang/Elixir: 外部通信之-NIF"};
-  printf("%s",xtqz(arr,4));
-  return 0;
-}

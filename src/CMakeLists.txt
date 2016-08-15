@@ -6,6 +6,8 @@ set(REALLOC1 realloc1.c)
 set(REALLOC2 realloc2.c)
 set(STRNDUP strndup.c)
 set(LONGEST_PREFIX_MATCH longest_prefix_match.c)
+
+# 可执行程序输出路径
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
 add_executable(hello ${APP_SRC})

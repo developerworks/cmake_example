@@ -13,12 +13,12 @@
 
 **表 1**
 
-Generator         | Description
-------------------+---------------
-`Unix Makefiles`  | Unix 系统格式的 Makefile
-`MinGW Makefiles` |
-`MSYS Makefiles`  |
-`NMake Makefiles` |
+| Generator        | Description   |
++------------------+---------------+
+|`Unix Makefiles`  | Unix 系统格式的 Makefile |
+|`MinGW Makefiles` | |
+|`MSYS Makefiles`  | |
+|`NMake Makefiles` | |
 
 Eclipse 有一个叫做 CMakeEd 的插件, 用于编辑 `CMakeLists.txt` 文件, 支持语法高亮.
 

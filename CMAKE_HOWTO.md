@@ -13,8 +13,8 @@
 
 **表 1**
 
-| Generator        | Description   |
-+------------------+---------------+
+| Generator        | Description     |
+| ---------------- | --------------- |
 |`Unix Makefiles`  | Unix 系统格式的 Makefile |
 |`MinGW Makefiles` | |
 |`MSYS Makefiles`  | |
